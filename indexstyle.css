@@ -29,6 +29,12 @@ h1{
   width: 400px;
   float: left;
   color:#008B8B;
+  padding: 10px;
+}
+.column{
+
+  float: right;
+  padding: 10px;
 }
 
 #main{
