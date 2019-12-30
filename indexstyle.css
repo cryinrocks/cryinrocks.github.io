@@ -1,0 +1,50 @@
+body{
+  background-color: #EEE;
+}
+
+h1{
+  margin: 0;
+}
+
+#container{
+  background-color: white;
+  width 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  border-style: dotted;
+}
+
+#header{
+  background-color: #66CCFF;
+  color: #000000;
+  text-align: center;
+}
+
+#content{
+  padding: 10px;
+}
+
+#nav{
+  width: 400px;
+  float: left;
+  color:#008B8B;
+}
+ 
+
+.column:after {
+ content: "";
+ display: table;
+  clear: both;
+}        
+
+#main{
+  width: 200px;
+  float:right;
+  text-align:left;
+}
+
+#footer{
+  clear: both;
+  text-align: center;
+}
