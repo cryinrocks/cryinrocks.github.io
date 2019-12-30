@@ -2,6 +2,9 @@ body{
   background-color: #EEE;
 }
 
+h1{
+  margin: 0;
+}
 
 #container{
   background-color: white;
@@ -19,8 +22,6 @@ body{
 
 #content{
   padding: 10px;
-  line-height: 100%;
-  font-size: 24px;
 }
 
 #nav{
