@@ -26,8 +26,9 @@ h1{
 }
 
 #nav{
-  width: 180px;
+  width: 400px;
   float: left;
+  color:#008B8B;
 }
 
 #main{
