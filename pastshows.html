@@ -1,0 +1,86 @@
+ <!DOCTYPE html>
+<html>
+<head>
+ <title>Y Against X</title>
+ <style>
+   body{
+     color: #fff;
+     font-family: 'Nunito Semibold';
+
+     text-align: center;
+   }
+   #content{
+     display: grid;
+     grid-template-columns: 1fr 2fr;
+     grid-auto-rows: minmax(150px, auto);
+     max-width: 960px;
+     margin: 0 auto;
+   }
+   #content > *{
+     padding: 10px;
+     border: 10px;
+     border-style: groove;
+     border-color: black;
+     border-width: medium;
+   }
+   header{
+     grid-column: span 3;
+     background: #3bbced;
+     font-size: 66px;
+     text-align: center;
+   }
+   main{
+     grid-column: 2 / 4;
+     grid-row: 2 / 4;
+     font-size: 30px;
+     color: #000000;
+     text-align: center;
+     background: #e82b69;
+   }
+
+   nav{
+     grid-row: s / span 2;
+     font-size: 24px;
+     background: #8ae348;
+   }
+   footer{
+     grid-column: span 3;
+     grid-row: 4;
+     background: #a56dda;
+   }
+ </style>
+</head>
+<body>
+
+ <div id="content">
+
+   <header>Y Against X
+
+
+
+   </header>
+
+   <main>
+     <p>this is a radio show that takes place on Mondays from 2:00 - 4:00 PM</p>
+
+     <p>you can tune in online at WCBN.org or over the airwaves at 88.3 FM
+       in the Ann Arbor area
+     </p>
+
+   </main>
+
+   <nav>
+     Nav
+     <p>About</p>
+     <p>Past Shows</p>
+     <p><a href="https://www.wcbn.org">WCBN</a></p>
+     <p>contact</p>
+
+   </nav>
+
+   <footer>Footer</footer>
+
+ </div>
+
+</body>
+</html>
