@@ -23,36 +23,44 @@
 			padding: 10px;
       border: 5px;
       border-style: solid;
-      border-color: white;
+      border-color: black;
       /*border-width: large;*/
 		}
 		header{
 			grid-column: span 3;
-			background: #3bbced;
+			background: #4bdd8d;
       font-size: 66px;
       text-align: center;
 		}
 		main{
 			grid-column: 2 / 4;
 			grid-row: 2 / 4;
-      font-size: 30px;
+      font-size: 38px;
+      font-style: normal;
+      font-family: fantasy;
       /*color: #000000;*/
-      background-image: url('train.JPG');
-      background-repeat: no-repeat;
+
       background-attachment: fixed;
       text-align: center;
-			background: #e82b69;
+			background: #4bdd8d;
 		}
 
+    .rainbow {
+      background-image: linear-gradient(to right, red , purple, green);
+      background-image: linear-gradient(to right, red , purple, green);
+      color:transparent;
+      -webkit-background-clip: text;
+      background-clip: text;
+    }
 		nav{
       grid-row: s / span 2;
       font-size: 24px;
-			background: #8ae348;
+			background: #4bdd8d;
 		}
 		footer{
 			grid-column: span 3;
       grid-row: 4;
-			background: #a56dda;
+			background: #4bdd8d;
 		}
 	</style>
 </head>
@@ -65,16 +73,16 @@
     </header>
 
 		<main>
-      <p>this is a radio show that takes place on Mondays from 9:00 - 10:00 PM</p>
+      <p><span class="rainbow">this is a radio show that takes place on Mondays from 9:00 - 10:00 PM</span></p>
 
-      <p>you can tune in online at WCBN.org or over the airwaves at 88.3 FM
-        in the Ann Arbor area
+      <p><span class="rainbow">you can tune in online at WCBN.org or over the airwaves at 88.3 FM
+        in the Ann Arbor area</span>
       </p>
 
     </main>
 
 		<nav>
-      Nav
+
       <p><a href="about.html"><img border="0" alt="about" src="about.png" width="150" height="50"></a></p>
       <p><a href="pastshows.html"><img border="0" alt="pastshows" src="past_shows.png" width="150" height="50"></a></p>
       <p><a href="https://www.wcbn.org"><img border="0" alt="wcbn" src="wcbn.png" width="150" height="50"></a></p>
@@ -83,7 +91,8 @@
     </nav>
 
 		<footer>
-      <img src="cats.gif" alt=":3">
+      <img src="math.gif" alt=":3">
+      <img src="math.gif" alt=":O">
     </footer>
 
 	</div>
